@@ -56,15 +56,15 @@
     <version>0.8.7</version>
 </dependency>
 	</dependencies>
-
+	
 	<distributionManagement>
         <repository>
             <id>maven-releases</id>
-            <url>http://65.2.144.134:8081/repository/maven-releases/</url>
+            <url>http://13.127.182.144:8081/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
             <id>maven-snapshots</id>
-            <url>http://65.2.144.134:8081/repository/maven-snapshots/</url>
+            <url>http:http://13.127.182.144:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 
