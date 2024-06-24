@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mission-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      name: miss-app
+  template:
+    metadata:
+      labels:
+        name: miss-app
+    spec:
+      containers:
+        - name: ctr-1
+          image: shrikolli/mission
+          ports:
+            - containerPort: 8083
